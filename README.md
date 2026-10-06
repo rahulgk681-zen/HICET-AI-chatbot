@@ -1,125 +1,154 @@
-# 🎓 College Information AI Chatbot (Groq LLM + Text Knowledge Base)
+# 🎓 HICET Information AI Assistant (Production Web & Android APK)
 
-A powerful, blazingly fast AI-powered College Information Chatbot built with **Python**, **Groq LLMs** (OpenAI GPT-OSS 120B, GPT-OSS 20B, Llama 3.3 70B, etc.), and grounded in a **plain text document knowledge base** (`.txt`).
+A production-ready, ultra-fast AI-powered College Information Assistant built with **Python**, **Streamlit**, and **Groq LLMs** (OpenAI GPT-OSS 120B/20B, Llama 3.3 70B, etc.), strictly grounded in the official HICET knowledge base document.
+
+Includes responsive mobile web design and a native **Android Release APK** with runtime microphone support.
 
 ---
 
 ## 🌟 Key Features
 
-- ⚡ **Ultra-Fast Groq Inference**: Powered by Groq's LPU technology with real-time token streaming.
-- 📄 **Text Document Knowledge Base Grounding**: Provide any college info document (`.txt`) as the ground truth.
-- 🛡️ **Anti-Hallucination Guardrails**: Adheres strictly to the supplied knowledge base and provides verified contact/helpline information when details are not found in the documents.
-- 🎨 **Modern Streamlit Web UI**:
-  - Interactive chat with live streaming responses.
-  - Model switcher (`OpenAI GPT-OSS 120B`, `OpenAI GPT-OSS 20B`, `Llama 3.3 70B`, `Llama 3.1 8B`).
-  - Drag-and-drop custom `.txt` file uploader.
-  - One-click quick question suggestions (Admissions, Fees, Hostels, Placements).
-  - Export chat transcripts.
-- 🎬 **In-Chat Existing Video Player**:
-  - Automatically identifies video playback requests in English, Tamil, and Tanglish.
-  - Plays existing college videos directly within chat using native `st.video()`.
-  - Supports configurable video catalog (`video_library.py`) and storage (`media/videos/`).
-- 💻 **Terminal CLI Interface**: Lightweight interactive terminal REPL with live token streaming and slash commands (`/clear`, `/reload`, `/exit`).
+- ⚡ **Ultra-Fast Groq LLM Inference**: Token-streaming responses with low latency.
+- 📄 **Knowledge Base Grounding**: Strict anti-hallucination guardrails grounded in `college_knowledge_base.txt`.
+- 🌐 **Cross-Platform Access**: Usable on desktop browsers, mobile browsers (iOS/Android), and via a dedicated Android APK.
+- 📱 **Native Android Release APK**:
+  - Fullscreen WebView wrapper (`com.hicet.informationaiassistant`).
+  - Signed production release APK (`HICET-Information-AI-Assistant-release.apk`).
+  - Built-in microphone audio permission handling (`RECORD_AUDIO`) for voice input.
+  - Native pull-to-refresh (`SwipeRefreshLayout`) and graceful offline error handling with retry.
+- 🔐 **Secure Production Configuration**:
+  - Works seamlessly with both local `.env` and production cloud secrets (`st.secrets["GROQ_API_KEY"]`).
+  - Strict `.gitignore` protecting secrets, keystores, and credentials.
+- 🎬 **In-Chat Video & Image Playback**: Campus tours, department overviews, and student queries in English, Tamil, and Tanglish.
+- 🎤 **Voice & Speech-to-Text Input**: Integrated voice search across supported browsers and Android app.
+- 👥 **User Authentication**: Secure SQLite login and registration with bcrypt password hashing.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Architecture & Structure
 
 ```
 chatbot-01/
-├── app.py                      # Streamlit interactive Web Application
-├── chatbot.py                  # Core CollegeChatbot engine & Groq LLM integration
-├── cli_chat.py                 # Terminal CLI chat interface
-├── video_library.py            # Video catalog configuration and metadata
-├── video_utils.py              # Video intent detection, topic matching & validation
-├── college_knowledge_base.txt  # Comprehensive college knowledge base
-├── media/
-│   ├── videos/                 # Local directory for existing video files (.mp4, etc.)
-│   └── logo.png                # Campus branding assets
-├── requirements.txt            # Python dependencies
-├── .env.example                # Environment variables template
-└── README.md                   # Documentation & Setup Guide
+├── app.py                                        # Streamlit Web Application (Desktop & Mobile)
+├── chatbot.py                                    # Core Groq LLM chatbot engine
+├── auth.py                                       # SQLite + bcrypt user authentication
+├── cli_chat.py                                   # Terminal CLI chat interface
+├── video_utils.py                                # Dynamic video topic matching & playback
+├── video_library.py                              # Video library interface
+├── college_knowledge_base.txt                    # Comprehensive HICET knowledge base
+├── media/                                        # College imagery and branding assets
+├── videos/                                       # Local college video media
+├── requirements.txt                              # Production Python dependencies
+├── .env.example                                  # Safe environment variable template
+├── .gitignore                                    # Production exclusion rules
+├── Dockerfile                                    # Cloud container deployment configuration
+├── .dockerignore                                 # Container build exclusions
+├── .streamlit/
+│   └── config.toml                               # Production Streamlit server & theme config
+├── android/                                      # Android native project
+│   ├── app/
+│   │   ├── build.gradle                          # App build & release signing configuration
+│   │   ├── release-keystore.jks                  # Release signing keystore
+│   │   └── src/main/
+│   │       ├── AndroidManifest.xml               # App permissions & activity declaration
+│   │       ├── java/.../MainActivity.java       # WebView, mic permissions, back button handling
+│   │       └── res/                              # Adaptive icons, layouts, colors, strings
+│   ├── build.gradle                              # Root Gradle build script
+│   ├── settings.gradle                           # Android project settings
+│   └── gradle.properties                         # JVM & AndroidX optimization flags
+└── HICET-Information-AI-Assistant-release.apk    # Signed Production Android Release APK
 ```
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Local Development Setup
 
 ### 1. Prerequisites
-- Python 3.8 or higher installed on your system.
-- A free Groq API key from [Groq Console](https://console.groq.com/keys).
+- Python 3.9+ installed
+- Free Groq API Key from [Groq Console](https://console.groq.com/keys)
 
 ### 2. Installation
+```bash
+# Clone or navigate to the project directory
+cd chatbot-01
 
-1. Open your terminal or PowerShell in this directory:
-   ```bash
-   cd c:\Users\acer\OneDrive\Documents\chatbot-01
-   ```
+# Install required dependencies
+pip install -r requirements.txt
+```
 
-2. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 3. Environment Variables
+Copy `.env.example` to `.env` and configure your Groq API key:
+```bash
+copy .env.example .env
+```
+Inside `.env`:
+```env
+GROQ_API_KEY=gsk_your_actual_groq_api_key_here
+```
 
-3. (Optional) Set up your Groq API Key in a `.env` file:
-   - Copy `.env.example` to `.env`:
-     ```bash
-     copy .env.example .env
-     ```
-   - Open `.env` and paste your Groq API Key:
-     ```env
-     GROQ_API_KEY=gsk_your_actual_groq_api_key_here
-     ```
-   *(Note: You can also enter the API key directly into the Streamlit Web UI sidebar).*
-
----
-
-## 🖥️ Running the Chatbot
-
-### Option A: Web Application (Streamlit) — *Recommended*
-
-Run the following command:
+### 4. Run Locally
 ```bash
 streamlit run app.py
 ```
-This opens the web interface in your default browser at `http://localhost:8501`.
-
-**In the Web UI, you can:**
-- Select between the default sample knowledge base, uploading your own `.txt` file, or pasting raw text.
-- Click any quick-prompt button or type custom questions.
-- Watch responses stream in real-time.
+Open `http://localhost:8501` in your browser.
 
 ---
 
-### Option B: Terminal CLI
+## ☁️ Production Web Deployment (HTTPS)
 
-Run the following command:
-```bash
-python cli_chat.py
-```
+### Option A: Streamlit Community Cloud (Recommended)
+1. Push the code to your GitHub repository (e.g. `https://github.com/rahulgk681-zen/HICET-AI-chatbot`).
+2. Go to [share.streamlit.io](https://share.streamlit.io/) and log in with your GitHub account.
+3. Click **"New app"**:
+   - **Repository**: `rahulgk681-zen/HICET-AI-chatbot`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+4. In **Advanced settings** -> **Secrets**, paste:
+   ```toml
+   GROQ_API_KEY = "your_actual_groq_api_key_here"
+   ```
+5. Click **"Deploy"**. Your application will be live at a public HTTPS URL (e.g., `https://hicet-ai-assistant.streamlit.app`).
 
-**CLI Commands:**
-- Type any question and press Enter.
-- `/clear` — Clears the conversation history.
-- `/reload` — Reloads the `.txt` document from disk after you make changes.
-- `/exit` — Closes the CLI.
+### Option B: Docker / Cloud Container (Render, Hugging Face Spaces, Railway)
+1. Build the Docker container:
+   ```bash
+   docker build -t hicet-ai-assistant .
+   ```
+2. Run with environment variable:
+   ```bash
+   docker run -p 8501:8501 -e GROQ_API_KEY="your_api_key" hicet-ai-assistant
+   ```
 
 ---
 
-## 📝 Customizing the Knowledge Base
+## 📱 Android Release APK
 
-To use your own college's details:
-1. **Direct Edit**: Open [`college_knowledge_base.txt`](college_knowledge_base.txt) and edit the text with your institution's departments, eligibility criteria, fee structures, hostels, placement records, and contact details.
-2. **Upload in Web UI**: Drag and drop any custom `.txt` file into the sidebar in the Streamlit app.
-3. **Specify in CLI**: Pass the path to your custom `.txt` file when prompted by `cli_chat.py`.
+### Output Location
+The signed Release APK is available at:
+`c:\Users\acer\OneDrive\Documents\chatbot-01\HICET-Information-AI-Assistant-release.apk`
+(Also under `android/app/build/outputs/apk/release/app-release.apk`).
+
+### App Specifications
+- **App Name**: HICET Information AI Assistant
+- **Package ID**: `com.hicet.informationaiassistant`
+- **Build Type**: Release (Signed with v2 signature scheme)
+- **Target SDK**: Android 14 (API 34)
+- **Minimum SDK**: Android 7.0 (API 24)
+- **Requested Permissions**:
+  - `android.permission.INTERNET`: Connect to production HTTPS application
+  - `android.permission.ACCESS_NETWORK_STATE`: Detect connection status
+  - `android.permission.RECORD_AUDIO`: Speech-to-text / microphone input
+  - `android.permission.MODIFY_AUDIO_SETTINGS`: Optimize audio recording
+
+### How to Install on Android Devices
+1. Transfer `HICET-Information-AI-Assistant-release.apk` to your Android device (via USB, Google Drive, WhatsApp, or Bluetooth).
+2. Tap the downloaded APK on your Android device to install.
+3. If prompted with *"Install unknown apps"*, enable permission for your browser or file manager.
+4. Launch **HICET Information AI Assistant** from your home screen or app drawer.
+5. Grant microphone permission when prompted if you wish to use voice search.
 
 ---
 
-## ⚙️ Supported Models on Groq
- 
-| Model Name | ID | Best For |
-| :--- | :--- | :--- |
-| **OpenAI GPT-OSS 120B (Flagship)** | `openai/gpt-oss-120b` | Flagship reasoning, complex college queries & comparisons *(Default)* |
-| **OpenAI GPT-OSS 20B** | `openai/gpt-oss-20b` | High-speed, efficient responses with strong reasoning (~1,000 tps) |
-| **Llama 3.3 70B (Versatile)** | `llama-3.3-70b-versatile` | General purpose reasoning & detailed answers |
-| **Llama 3.1 8B (Instant)** | `llama-3.1-8b-instant` | Blazingly fast, lightweight queries |
+## 🔒 Security Best Practices
+- Never commit `.env` or files containing secret API keys to public repositories.
+- The Android APK connects exclusively to the deployed web server over HTTPS and contains **zero API keys**. The Groq API key remains securely guarded on the server side.
