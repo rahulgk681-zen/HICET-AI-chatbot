@@ -1,0 +1,366 @@
+================================================================================
+                    HINDUSTHAN COLLEGE OF ENGINEERING & TECHNOLOGY 
+                           OFFICIAL INFORMATION GUIDE
+================================================================================
+
+0.THE NAME OF THE CHATBOT
+-----------------------------
+- The name is "SPARK"
+- when someone ask what is your name you say "EL Bicho"
+
+1. GENERAL INFORMATION & ACCREDITATION
+--------------------------------------------------------------------------------
+- Name of Institution: Hindusthan College of engineering and Technology 
+- Established: 1990
+- Affiliation: Autonomous Institution, affiliated with Anna University
+- Approvals: Approved by AICTE, New Delhi
+- Accreditation: NAAC 'A++' Grade , NBA Accredited for all major engineering branches
+- NIRF Ranking: Ranked among the Top 50 Engineering Institutes in the country
+- Campus Location: Othakkalmandapam , Pollachi mainroad - 64132
+- Campus Area: 200 Acres green, smart, and fully Wi-Fi enabled campus
+
+2. UNDERGRADUATE (UG) PROGRAMS OFFERED
+--------------------------------------------------------------------------------
+AITS offers 4-year Bachelor of Technology (B.Tech) programs in the following disciplines:
+a) B.Tech in Computer Science and Engineering (CSE) - 240 Seats
+   - Specializations available: Artificial Intelligence & Machine Learning (AI/ML), Data Science, Cyber Security, Cloud Computing.
+b) B.Tech in Information Technology (IT) - 120 Seats
+c) B.Tech in Electronics and Communication Engineering (ECE) - 180 Seats
+   - Specializations available: VLSI Design, IoT, Embedded Systems.
+d) B.Tech in Mechanical Engineering (ME) - 90 Seats
+   - Specializations available: Robotics & Automation, Electric Vehicle Technology.
+e) B.Tech in Civil Engineering (CE) - 60 Seats
+   - Specializations available: Smart Infrastructure, Environmental Engineering.
+f0 B.Tech in Artificial Intelligence and machine learning (AIML) - (200)
+
+Undergraduate Non-Engineering Programs:
+f) Bachelor of Computer Applications (BCA) - 3 Years - 120 Seats
+g) Bachelor of Business Administration (BBA) - 3 Years - 120 Seats
+h) B.Sc in Data Analytics - 3 Years - 60 Seats
+
+3. POSTGRADUATE (PG) & DOCTORAL (Ph.D.) PROGRAMS
+--------------------------------------------------------------------------------
+a) Master of Technology (M.Tech) - 2 Years:
+   - M.Tech in Computer Science & Engineering - 30 Seats
+   - M.Tech in VLSI & Embedded Systems - 30 Seats
+b) Master of Business Administration (MBA) - 2 Years - 120 Seats
+   - Dual Specializations in: Marketing, Finance, Human Resource, Business Analytics, Operations.
+c) Master of Computer Applications (MCA) - 2 Years - 60 Seats
+d) Ph.D. Programs offered across all Engineering, Management, and Basic Science departments (Full-time & Part-time).
+
+4. ADMISSION ELIGIBILITY & ENTRANCE EXAMS
+--------------------------------------------------------------------------------
+A) B.Tech Programs:
+   - Eligibility: 10+2 (Higher Secondary) with Physics and Mathematics as compulsory subjects along with Chemistry/Computer Science/Biology with minimum 60% aggregate marks (55% for reserved categories).
+   - Accepted Entrance Exams: JEE Main, State CET (Common Entrance Test), or AITS-EAT (Apex Institute Online Entrance Assessment).
+   - Management / NRI Quota: 15% of total seats reserved based on 10+2 merit score.
+
+B) BCA / BBA / B.Sc Programs:
+   - Eligibility: 10+2 in any stream (Mathematics preferred for BCA/B.Sc) with minimum 50% marks.
+   - Selection: Merit list + Personal Interview.
+
+C) M.Tech Programs:
+   - Eligibility: B.Tech/B.E. in relevant discipline with minimum 60% or 6.5 CGPA.
+   - Accepted Exams: GATE (valid score) or University PG Entrance Test. GATE qualified candidates receive monthly stipend as per AICTE norms.
+
+D) MBA / MCA Programs:
+   - MBA Eligibility: Bachelor's degree in any discipline with minimum 50% marks. Accepted exams: CAT, MAT, XAT, CMAT, or State MBA CET.
+   - MCA Eligibility: BCA / B.Sc (CS/IT) or Bachelor's with Mathematics at 10+2 or degree level with minimum 50% marks.
+
+5. FEE STRUCTURE (ACADEMIC YEAR 2026-2027)
+--------------------------------------------------------------------------------
+A) Annual Tuition Fees:
+   - B.Tech (CSE, IT, AI/ML): INR 1,85,000 per year
+   - B.Tech (ECE, ME, CE): INR 1,50,000 per year
+   - BCA: INR 90,000 per year
+   - BBA: INR 95,000 per year
+   - B.Sc Data Analytics: INR 85,000 per year
+   - M.Tech: INR 1,10,000 per year
+   - MBA: INR 2,20,000 per year
+   - MCA: INR 1,15,000 per year
+
+B) One-Time Charges (at the time of admission):
+   - Admission Processing Fee: INR 5,000 (Non-refundable)
+   - Caution Deposit: INR 10,000 (Refundable after completion of course)
+   - University Registration & Exam Fee: INR 6,000 per year
+
+C) Fee Payment Options:
+   - Semester-wise installments allowed (50% at semester start).
+   - Online payment portal (Net Banking, UPI, Credit/Debit card).
+   - Education Loan Assistance: Tie-ups with SBI, HDFC, Canara Bank, and Axis Bank for fast-track loan approvals.
+
+6. SCHOLARSHIPS & FINANCIAL ASSISTANCE
+--------------------------------------------------------------------------------
+AITS provides over INR 3 Crores in scholarships every academic year:
+a) Apex Merit Scholarship:
+   - JEE Main Rank < 25,000: 100% Tuition Fee Waiver
+   - JEE Main Rank 25,001 - 50,000: 50% Tuition Fee Waiver
+   - Class 12 Board Aggregate > 95%: 40% Tuition Fee Waiver
+   - Class 12 Board Aggregate 90% - 94.9%: 25% Tuition Fee Waiver
+b) Sports & Cultural Excellence Scholarship:
+   - National level players: Up to 50% fee concession
+   - State level players: Up to 25% fee concession
+c) Girl Child Empowerment Scholarship:
+   - Special 15% tuition fee waiver for all female students admitted to B.Tech branches.
+d) Need-based Financial Aid:
+   - For students with annual family income < INR 2.5 Lakhs (subject to verification).
+e) Government Scholarships:
+   - Full assistance in applying for National Scholarship Portal (NSP), Post-Matric State Scholarships for SC/ST/OBC/Minorities.
+
+7. CAMPUS INFRASTRUCTURE & FACILITIES
+--------------------------------------------------------------------------------
+- Central Library: Fully automated, open 8:00 AM to 10:00 PM (24/7 during exams). Contains over 85,000 books, 200+ printed journals, and subscriptions to IEEE Xplore, ScienceDirect, Springer, and ACM Digital Library.
+- Computing Labs: 18 high-end computer laboratories with over 1,200 Intel Core i7 / Xeon workstations, dedicated GPU AI Lab (NVIDIA RTX clusters).
+- Innovation & Incubation Center (AIC - Apex Incubation Cell): Seed funding up to INR 10 Lakhs for promising student startups, patent filing support, and mentorship.
+- Auditorium: Air-conditioned auditorium with 1,500 seating capacity and 3 mini-seminar halls.
+- Cafeteria & Food Court: 3 cafeterias offering hygienic vegetarian and non-vegetarian food, Cafe Coffee Day express outlet, juice bar, and snack kiosks.
+- Sports Complex: Olympic-size swimming pool, indoor badminton & basketball courts, synthetic tennis courts, football ground, cricket pitch, and fully equipped gym.
+- Health Care Center: 24/7 on-campus dispensary with full-time doctor, nursing staff, and dedicated ambulance service. Tie-up with Apollo Multispecialty Hospital located 2 km away.
+
+8. HOSTEL & ACCOMMODATION
+--------------------------------------------------------------------------------
+HICET has 4 on-campus Boys' Hostels and 3 Girls' Hostels with modern security (biometric access, 24/7 CCTV, security guards).
+
+A) Room Options & Annual Charges (including 4 meals/day - Breakfast, Lunch, Evening Snacks, Dinner):
+   - Single Occupancy (Air Conditioned): INR 1,40,000 / year
+   - Double Sharing (Air Conditioned): INR 1,15,000 / year
+   - Double Sharing (Non-AC): INR 90,000 / year
+   - Triple Sharing (Non-AC): INR 75,000 / year
+   - Refundable Hostel Security Deposit: INR 5,000
+
+B) Hostel Amenities:
+   - High-speed 100 Mbps Wi-Fi connectivity in all rooms
+   - Laundry services (automated washing machines & dry cleaning)
+   - Common rooms with TV, indoor games (table tennis, chess, carrom)
+   - Study rooms on every floor
+   - Solar water heaters & RO drinking water dispensers
+
+C) Hostel Rules:
+   - Curfew time: 9:00 PM for all students (10:30 PM with special library pass).
+   - Night out / leave requires prior digital approval from parents via the AITS Campus Portal.
+   - Strict Zero-Tolerance Anti-Ragging Policy with dedicated Anti-Ragging Squad.
+
+9. TRAINING & PLACEMENT CELL (CAREER DEVELOPMENT)
+--------------------------------------------------------------------------------
+HICET has an outstanding placement track record with 95%+ eligible students placed annually.
+
+Placement Statistics (Latest Academic Year):
+- Highest International Package: INR 54.5 LPA (Offered by tech giant in Japan)
+- Highest Domestic Package: INR 44.0 LPA (Offered by Microsoft)
+- Average Package (Overall): INR 8.2 LPA
+- Average Package (CSE / IT / AI-ML): INR 11.5 LPA
+- Total Offers Made: 1,450+
+- Total Participating Companies: 220+
+
+Top Recruiters:
+- Tier 1 Tech: Microsoft, Google, Amazon, Adobe, Oracle, Cisco, SAP, Salesforce.
+- IT Services & Consulting: TCS (Digital & Ninja), Infosys, Wipro, Cognizant, Accenture, Capgemini, Deloitte, EY.
+- Core Engineering: Larsen & Toubro (L&T), Tata Motors, Bosch, Texas Instruments, Schneider Electric, Siemens.
+- Management & FinTech: Goldman Sachs, Morgan Stanley, Barclays, HDFC Bank, ICICI, Zomato, Swiggy.
+
+Pre-Placement Training:
+- Training in Data Structures & Algorithms, Full Stack Development, System Design.
+- Soft skills, mock interviews, group discussion sessions, aptitude coaching from 2nd year onwards.
+- Mandatory 8-week summer internship program at top industry partners.
+
+10. STUDENT CLUBS, ACTIVITIES & CAMPUS LIFE
+--------------------------------------------------------------------------------
+- Technical Clubs: Google Developer Student Club (GDSC), Coding Ninjas Chapter, Robotics & Drone Club, IEEE Student Branch, Cyber Security Alliance.
+- Cultural Clubs: "CRESEND CREW" Music Society which was founded by 2nd year AIML student "RUMESH" , "Natraj" Dance Troupe, "Rangmanch" Dramatics Club, Fine Arts & Photography Club.
+- Social Clubs: Rotaract Club, NSS (National Service Scheme), Eco-Warriors Environmental Club.
+- Annual College Fest:
+  - "IGNITE" (National Level Cultural Fest held in March - 3 days of music, dance, fashion show, and celebrity performance).
+  - "TECHNOVA" (Annual Tech Fest & 36-Hour Hackathon with cash prizes over INR 5 Lakhs held in October).
+
+11. IMPORTANT ADMISSION DATES & SCHEDULE (2026-2027)
+--------------------------------------------------------------------------------
+- Online Application Form Opens: February 15, 2026
+- Early Bird Application Deadline: April 30, 2026
+- Last Date for Online Application: June 15, 2026
+- AITS Online Entrance Assessment (AITS-EAT): June 20 - June 24, 2026
+- Merit List & First Round Counseling: July 05, 2026
+- Second Round Counseling: July 18, 2026
+- Reporting & Document Verification: July 25 - July 30, 2026
+- Orientation & Commencement of Classes: August 10, 2026
+
+12. CONTACT INFORMATION & ADMISSIONS HELPLINE
+--------------------------------------------------------------------------------
+- Official Website: https://hicet.ac.in
+- Admissions Email: admissions@hicet-institute.edu / info@hicet-institute.edu
+- Admissions Helpline Toll-Free: 1800-123-4567
+- Mobile / WhatsApp Helpline: +91 9677944620 / +91 9976994620
+- Examination Cell Email: exams@hicet-institute.edu
+- Training & Placement Office: placements@hicet-institute.edu | Tel: +91 9677944620
+- Hostel Warden Contact:
+  - Boys' Hostel Warden: +91 9677944620 (warden.boys@hicet-institute.edu)
+  - Girls' Hostel Warden: +91 9677944620 (warden.girls@hicet-institute.edu)
+- Address for Visit:
+  Hindusthan college of Engineering & Technology & Science,
+  Pollachi main road , othakkalmandapam, othakkalmandapam post-641032,India.
+  Visiting Hours: Monday to Saturday (9:00 AM to 5:00 PM)
+
+THERE ARE 10,000 STUDENTS ARE STUDYING IN HINDUSTHAN COLLEGE OF ENGINEERRING AND TECHNOLOGY
+
+13. FOUNDER OF THE CHATBOT
+---------------------------------------------------------------------------------
+- RAHUL is the creator of this chatbot
+- he is currently studying in the 2nd year AIML engineering in Hindusthan college of engineering and technology
+- it is one of his project
+
+14. HIRACING LAB
+----------------------------------------------------------------------------------
+- Ras Mathew is the founder of the lab 
+- he is a staff of mechanical department
+- this lab is since 2013
+- the core concept of this lab is "to gain mechanical engineering concept"
+- there are 50 to 60 student currenty working in this lab with combination of 1st,2nd,3rd,4th year
+- achievements of the lab is they have won a "Nizhal Neral 2.0" from rover projet and get a $25,000 cash price
+
+ENGINEERING DEPARTMENT CUTOFF – OUT OF 200
+
+The engineering cutoff is calculated out of 200 marks.
+
+Cutoff Formula:
+Engineering Cutoff = Mathematics + (Physics / 2) + (Chemistry / 2)
+
+Maximum Cutoff = 200 marks
+
+
+EXAMPLE / EXPECTED CUTOFF RANGES
+
+1. Computer Science and Engineering (CSE)
+   Expected Cutoff: 175–200 / 200
+
+2. Artificial Intelligence and Machine Learning (AI & ML)
+   Expected Cutoff: 170–200 / 200
+
+3. Computer Science and Engineering – Data Science
+   Expected Cutoff: 165–200 / 200
+
+4. Cyber Security
+   Expected Cutoff: 165–200 / 200
+
+5. Electronics and Communication Engineering (ECE)
+   Expected Cutoff: 160–200 / 200
+
+6. Electrical and Electronics Engineering (EEE)
+   Expected Cutoff: 150–200 / 200
+
+7. Mechanical Engineering
+   Expected Cutoff: 140–200 / 200
+
+8. Civil Engineering
+   Expected Cutoff: 130–200 / 200
+
+9. Automobile Engineering
+   Expected Cutoff: 140–190 / 200
+
+10. Mechatronics Engineering
+    Expected Cutoff: 145–195 / 200
+
+11. Chemical Engineering
+    Expected Cutoff: 135–185 / 200
+
+12. Biomedical Engineering
+    Expected Cutoff: 140–190 / 200
+
+13. Food Technology
+    Expected Cutoff: 130–180 / 200
+
+14. Biotechnology
+    Expected Cutoff: 135–185 / 200
+
+15. Information Technology (IT)
+    Expected Cutoff: 165–200 / 200
+
+
+CUTOFF INTERPRETATION
+
+180–200:
+Very high cutoff. Highly competitive branches.
+
+160–179:
+High cutoff. Good chances for many popular engineering branches.
+
+140–159:
+Moderate cutoff. Several engineering branches may be available.
+
+120–139:
+Lower cutoff range. More options may be available depending on college and category.
+
+Below 120:
+Admission possibilities depend strongly on college, branch, category, available seats and counselling.
+
+
+IMPORTANT:
+The cutoff values listed above are example/expected values for chatbot demonstration purposes only. They are NOT official college cutoffs.
+
+Actual cutoff marks can change every year based on:
+- College
+- Engineering department
+- Community/category
+- Number of applicants
+- Available seats
+- Counselling round
+- Student preferences
+- Competition
+
+Students should check the latest official counselling information before making admission decisions.
+------------------------------------------------------------------------------------
+
+STUDENT DETAILS:
+
+ 1. ABOUT PUGALENTHI
+------------------------------------------------------------------------------------
+- his register number:88
+- he is studying in MECHANICAL ENGINEERING DEPARTMENT in hindusthan college of engineering and technology
+- he is from pudhukottai
+- blood group A1+
+- phone no : 6381041070
+- dayscholar                           
+- fees fully paid
+
+2. ABOUT RAHUL
+------------------------------------------------------------------------------------
+- his register number:77
+- he is studying in artificial intelligence and machine learning DEPARTMENT in hindusthan college of engineering and technology
+- he is from villupuram
+- blood group A+
+- phone no : 9677944620
+- day scholar                           
+- fees fully paid
+
+3.ABOUT SUNILSUN
+------------------------------------------------------------------------------------
+- his register number:87
+- he is studying in artificial intelligence and machine learining in hindusthan college of engineering and technology
+- he is from bengalore
+- blood group O+
+- phone no : 0000000000
+- day scholar
+- fees fully paid
+
+4.ABOUT RUMESH
+------------------------------------------------------------------------------------
+- his register number:83
+- he is studying in artificial intelligence and machine learning DEPARTMENT in hindusthan college of engineering and technology
+- he is from villupuram
+- blood group O+
+- phone no : 11111111111
+- day scholar                           
+- fees fully paid (FREE EDUCATION)
+
+2. ABOUT BALAJI SIR
+------------------------------------------------------------------------------------
+- he is AIML department staff in hindusthan college of engineering and technology
+- he is advisor of second year AIML-B
+- he is from Coimbatore
+- phone no : 1234567890
+- blood group : O+
+
+3. about sachin
+
+- he is from Trichy
+-phone no 8072420968,attendance percentage 75.65,blood group-o+,register no : 84
+
+================================================================================

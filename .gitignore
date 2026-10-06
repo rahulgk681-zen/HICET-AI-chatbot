@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+*.env
+*.key
+*.pem
+*.jks
+*.keystore
+
+# Streamlit secrets (keep config.toml)
+.streamlit/secrets.toml
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# SQLite Database / User credentials
+users.db
+
+# Android & web build outputs
+dist/
+build/
+bin/
+android/app/build/
+android/.gradle/
+android/build/
+*.apk
+*.aab
